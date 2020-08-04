@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class DivisorCalc {
 
 public static void  main(String [] args)
-{
+{ //driver program
     Scanner input = new Scanner(System.in);
     System.out.println("Number 1:");
     int num1 = input.nextInt();
