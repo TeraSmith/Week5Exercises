@@ -12,8 +12,8 @@ public class UserStrings {
 	       while (true){
 	           String user = strings.nextLine();
 	           if(user.equalsIgnoreCase("DONE")){
-	               
-	               pw.close();
+	                pw.close();
+	              
 	               break;
 	           }
 	           pw.println(user);
