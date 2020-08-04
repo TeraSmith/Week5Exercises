@@ -12,7 +12,7 @@ public class UserStrings {
 	       while (true){
 	           String user = strings.nextLine();
 	           if(user.equalsIgnoreCase("DONE")){
-	               pw.flush();
+	               ;
 	               pw.close();
 	               break;
 	           }
