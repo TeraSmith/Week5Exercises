@@ -11,7 +11,7 @@ public static void  main(String [] args)
     System.out.println("Number 2:");
     int num2 = input.nextInt();
 
-    System.out.println("The GCD of " + num1 + " and " + num2 + " is " +  gcd(num1,num2));
+    System.out.println("The GCD is " +  gcd(num1,num2));
 }
 
 
