@@ -3,16 +3,11 @@ public class StringReversal
 {
 	public static void main(String[] args) {
 		//driver program
-	Scanner obj = new Scanner(system.in);
 	
-	String inputstring;
+	String reverse = "hello world";
 	
-	String reverse = reverseString(s);
-	
-	System.out.println("Enter a string: ");
-		inputstring.obj.nextLine();
 		
-	System.out.println("Reversed string is" +reverse);
+	System.out.println(reverseString (reverse));
 
 	}
 
